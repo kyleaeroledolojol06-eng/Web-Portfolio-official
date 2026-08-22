@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Kyle Aerole Dolojol - Web Developer Portfolio">
+  <title>Kyle Aerole Dolojol | Web Developer</title>
+  <link rel="stylesheet" href="Design.css">
+</head>
+<body>
+  <header class="navbar">
+    <a href="#home" class="logo">Kyle Aerole</a>
+    <button class="menu-toggle" aria-label="Open menu">☰</button>
+    <nav class="nav-links">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#services">Services</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero section">
+      <div class="hero-photo reveal">
+        <img src="Profile.png" alt="Kyle Aerole Dolojol" onerror="this.style.display='none'; this.parentElement.classList.add('photo-fallback');">
+        <span class="fallback-initials">KA</span>
+      </div>
+
+      <div class="hero-content reveal">
+        <p class="eyebrow">WELCOME TO MY PORTFOLIO</p>
+        <h1>I am <span>KYLE AEROLE</span><br>DOLOJOL</h1>
+        <p class="hero-role">I am a <span id="typing">Web Developer</span></p>
+        <p class="hero-description">
+          I create modern, responsive, and user-focused websites and digital systems
+          that turn ideas into practical experiences.
+        </p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#contact">Hire Me Now</a>
+          <a class="btn secondary" href="#projects">View Projects ↗</a>
+        </div>
+        <div class="social-row">
+          <a href="https://github.com/" target="_blank" rel="noreferrer">GitHub</a>
+          <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LinkedIn</a>
+          <a href="mailto:your@email.com">Email</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="section-heading reveal">
+        <p class="eyebrow">ABOUT ME</p>
+        <h2>Building ideas into <span>digital experiences.</span></h2>
+      </div>
+      <div class="about-grid">
+        <article class="glass-card reveal">
+          <h3>Who I Am</h3>
+          <p>
+            I am Kyle Aerole Dolojol, a Web Developer interested in building clean,
+            responsive, and functional web experiences. I enjoy combining design,
+            frontend development, and system concepts to create useful projects.
+          </p>
+          <p>
+            My portfolio showcases school projects, system concepts, UI/UX work,
+            and web development experiments.
+          </p>
+        </article>
+        <div class="stats-grid reveal">
+          <div class="stat-card"><strong>03+</strong><span>Featured Projects</span></div>
+          <div class="stat-card"><strong>100%</strong><span>Passion for Learning</span></div>
+          <div class="stat-card"><strong>24/7</strong><span>Creative Ideas</span></div>
+          <div class="stat-card"><strong>∞</strong><span>Room to Improve</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section compact-section">
+      <div class="section-heading reveal">
+        <p class="eyebrow">MY SKILLS</p>
+        <h2>Tools & <span>technologies.</span></h2>
+      </div>
+      <div class="skills-grid reveal">
+        <span>HTML5</span><span>CSS3</span><span>JavaScript</span><span>PHP</span>
+        <span>MySQL</span><span>Git & GitHub</span><span>Responsive Design</span><span>UI/UX</span>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="section-heading reveal">
+        <p class="eyebrow">MY WORK</p>
+        <h2>Featured <span>projects.</span></h2>
+      </div>
+
+      <div class="projects-grid">
+        <article class="project-card reveal">
+          <div class="project-image">
+            <div class="project-overlay"><a href="#contact" class="view-project">View Project ↗</a></div>
+            <div class="project-art trip2skul-art">
+              <span class="art-logo">Trip2Skul</span>
+              <span class="art-subtitle">YOUR DAILY RIDE TO SUCCESS</span>
+              <div class="mock-phone">
+                <div class="phone-top">Where to?</div>
+                <div class="route-line"></div>
+                <div class="route-box">PLMun Main Gate</div>
+                <div class="route-box">Jollibee - Plaza Central</div>
+                <div class="fare">₱58.00</div>
+              </div>
+            </div>
+          </div>
+          <div class="project-content">
+            <div class="tags"><span>Web</span><span>System</span><span>UI/UX</span></div>
+            <h3>Trip2Skul</h3>
+            <p>A transportation system concept designed to make commuting to school easier and more convenient.</p>
+            <div class="project-footer"><small>System Project</small><a href="#contact">Details ↗</a></div>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-image">
+            <div class="project-overlay"><a href="#contact" class="view-project">View Project ↗</a></div>
+            <div class="project-art waste-art">
+              <div class="bin">♻</div>
+              <div><strong>SMART WASTE</strong><small>SEGREGATION & MONITORING</small></div>
+              <div class="waste-bars"><i></i><i></i><i></i><i></i></div>
+            </div>
+          </div>
+          <div class="project-content">
+            <div class="tags"><span>Mobile</span><span>IoT</span><span>System</span></div>
+            <h3>Smart Waste Solution</h3>
+            <p>A smart waste segregation and monitoring system designed to encourage proper waste disposal.</p>
+            <div class="project-footer"><small>Smart System</small><a href="#contact">Details ↗</a></div>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-image">
+            <div class="project-overlay"><a href="#contact" class="view-project">View Project ↗</a></div>
+            <div class="project-art web-art">
+              <div class="browser">
+                <div class="browser-bar"><i></i><i></i><i></i></div>
+                <div class="browser-body"><b>&lt;/&gt;</b><span>Modern Web Interface</span></div>
+              </div>
+            </div>
+          </div>
+          <div class="project-content">
+            <div class="tags"><span>Web</span><span>Frontend</span><span>Design</span></div>
+            <h3>Web Portfolio</h3>
+            <p>A responsive personal portfolio focused on clean visuals, smooth interactions, and project presentation.</p>
+            <div class="project-footer"><small>Personal Project</small><a href="#contact">Details ↗</a></div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="services" class="section">
+      <div class="section-heading reveal">
+        <p class="eyebrow">WHAT I DO</p>
+        <h2>My <span>services.</span></h2>
+      </div>
+      <div class="services-grid">
+        <article class="service-card reveal"><div class="service-icon">⌘</div><h3>Web Development</h3><p>Responsive websites built with clean HTML, CSS, and JavaScript.</p></article>
+        <article class="service-card reveal"><div class="service-icon">◈</div><h3>UI/UX Design</h3><p>Modern interfaces with clear layouts, visual hierarchy, and usability in mind.</p></article>
+        <article class="service-card reveal"><div class="service-icon">⚙</div><h3>System Concepts</h3><p>Planning and designing practical digital systems for school and community projects.</p></article>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact-section">
+      <div class="contact-card reveal">
+        <div>
+          <p class="eyebrow">LET'S WORK TOGETHER</p>
+          <h2>Have a project in <span>mind?</span></h2>
+          <p>Send me a message and let's turn your idea into a working digital experience.</p>
+        </div>
+        <form id="contactForm">
+          <input type="text" id="name" placeholder="Your name" required>
+          <input type="email" id="email" placeholder="Your email" required>
+          <textarea id="message" rows="5" placeholder="Tell me about your project..." required></textarea>
+          <button class="btn primary" type="submit">Send Message ↗</button>
+          <p id="formMessage" class="form-message"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© <span id="year"></span> Kyle Aerole Dolojol. All rights reserved.</p>
+    <a href="#home">Back to top ↑</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
